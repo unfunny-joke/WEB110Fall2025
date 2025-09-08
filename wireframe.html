@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- Callie Shrum, 9/8 -->
+
+<html lang="en">
+
+    <!-- Contains all the info that the browser needs to know, but WON'T show on the page. -->
+    <head>
+        <title>Wireframe Basics</title>
+        <meta charset="utf-8">
+    </head>
+
+    <!-- Contains everything that WILL show up on the page. -->
+    <body>
+        <!-- Container for intro content -->
+        <header> 
+            <h1>Wireframe</h1>
+        </header>
+
+        <!-- Navigation Links -->
+        <nav>
+            <!-- 'a' tags are for anchors. Put them between <a> and </a> -->
+            <a href="wireframe.html"> Home </a> <!-- Relative hyperlink - located inside my own website -->
+            &nbsp;&nbsp; <!-- Non Breaking Space, adds horizontal space. Called a special entity -->
+            <a href="images/cat.jpg"> Cat </a> <!-- Looking inside a folder looking for cat.jpg -->
+            &nbsp;&nbsp;
+            <a href="../index.html"> Going back into a folder </a> <!-- Two periods tells it to go back in the directory -->
+            &nbsp;&nbsp;
+            <a href="../images/dog.jpg"> Going back and into another folder </a>
+            &nbsp;&nbsp;
+        </nav>
+
+        <hr>
+
+        <main>
+            <h2>This is a heading</h2>
+            <h3>This is a heading</h3>
+            <h4>This is a heading</h4>
+            <h5>This is a heading</h5>
+            <h6>This is a heading</h6>
+
+            <!-- Line breaks, creates vertical space -->
+            <br><br> 
+
+            <p> This is <br><br> a paragraph. </p>
+
+            <blockquote cite="google.com"> I am a quote! </blockquote>
+
+            <p> This is an example of <i>emphasis</i>, <mark>marking</mark>, <abbr title="this is the full word">abbreviation</abbr>, <bdo dir="rtl">direction</bdo>, and <b>strong</b>. </p>
+            
+            <br>
+
+            <a href="http://www.jccc.edu" target="_blank"> Here is a link to the JCCC website </a> <!-- Absolute link - A link to an external website. Target _blank attribute opens in another tab. -->
+
+            <!-- A container for stuff. Useful for CSS later. -->
+            <div>
+                <!-- Ordered list, for things that need to be in order. -->
+                <ol type="A">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ol>
+
+                <!-- Unordered list, for things that don't need to be in order. -->
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+
+                <!-- Description list, for terms and definitions or questions and answers. Things that go together. -->
+                <dl>
+                    <dt> Description Term 1 </dt>
+                    <dd> Description Definition 1 </dd>
+                    <dt> Question 1 </dt>
+                    <dd> Answer 1 </dd>
+                </dl>
+            </div>
+        </main>
+
+        <footer>
+            <small> Copyright &copy; Callie &amp; WEB 110 </small>
+            <br>
+            <a href="mailto:cshrum2@stumail.jccc.edu"> Email me! </a>
+        </footer>
+    </body>
+
+</html>
