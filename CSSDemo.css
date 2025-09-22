@@ -1,0 +1,22 @@
+/* Callie Shrum, Semptember 22, 2025 */
+
+/* selector {declaration: value;} */
+/* selector: HTML Element, class or ID */
+/* declaration: the style I want to change */
+
+body {background-color: red;
+    background-color: blue;
+    color: white;
+    background-color: rgb(255, 200, 50);
+    background-color: hsl(200, 80%, 80%);
+    background-color: #FF22FF;}
+
+h1, h2 {color: red;
+    background-color: white;}
+
+p {color: blue;}
+
+ol {background-color: white;
+    color: red;}
+
+ol li {color: green;}
