@@ -1,0 +1,39 @@
+/* Callie Shrum, 10/6/2025 */
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', serif; 
+    /* Using a font family instead of 1 font gives a fallback if the font is not available. Use quotes for multiword fonts. */
+}
+
+p, ul {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-indent: 25px;
+    text-transform: lowercase;
+}
+
+p {
+    font-size: xx-large;
+}
+
+ul {
+    font-size: xx-small;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    font-style: italic;
+    line-height: 1.5;
+}
