@@ -7,12 +7,15 @@ body {
 
 main {
     background-color: white;
+    width: 50%;
+    margin: auto;
 }
 
 header {
     background: url(images/logo.png) no-repeat right;
     text-align: center;
     color: white;
+    padding: 20px;
 }
 
 nav {
@@ -23,6 +26,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #29485d;
+    padding: 10px;
 }
 
 nav a:hover{
@@ -51,6 +55,9 @@ footer {
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
     background-color: white;
+    padding: 20px;
+    width: 20%;
+    margin: auto;
 }
 
 .web {
@@ -61,8 +68,14 @@ footer {
 #contact {
     text-align: center;
     background-color: #c7b2ae;
+    padding: 15px;
+    margin-top: 20px;
 }
 
 .attraction-image {
     max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 10px grey;
 }
