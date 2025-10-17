@@ -1,70 +1,118 @@
+/* Callie Shrum, 10/13/2025 */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #353535;
+    background-color: #464e47;
     margin: 0px;
 }
 
 #wrapper {
     width: 75%;
     margin: 0px auto;
-    background-color: #f0f0f0;
-}
-
-#banner {
-    background-color: #f1d34a;
+    background-color: #F1FFFA;
+    box-shadow: 0px 0px 20px #252525;
+    min-width: 360px;
 }
 
 header {
     text-align: center;
     font-family: helvetica, sans-serif;
-    padding: 5% 0px;
+    min-height: 100vh;
+    padding: 0% 0px;
+    background-image: url(images/SunFrank.jpeg);
+    background-size: cover;
+    background-color: #CCFCCB;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 5px 20px -5px #568259;
+    color: #F1FFFA;
+    display: flex;
+}
+
+#banner {
+    margin-right: auto;
+    margin: 5% auto auto 0;
+    background-color: #ff9f68cc;
+    width: 65%;
+    min-width: 400px;
+    box-shadow: 5px 5px 20px -5px #333, 10px 0 10px -5px inset #ac6b46;
 }
 
 header h1{
     font-size: 4em;
-    padding: 10px;
-    margin: 0px;
+    padding: 10px 5% 0 20%;
+    margin: 0;
 }
 
 header h2 {
     font-weight: normal;
     font-size: 1.5em;
-    padding: 10px;
-    margin: 0px;
+    padding: 10px 5% 10px 20%;
+    margin: 0;
+}
+
+#portrait {
+    min-width: 20%;
+    max-width: 30%;
+    align-self: flex-end;
+    float: right;
+    border-radius: 25px;
+    box-shadow: -10px -10px #FF9F68;
 }
 
 nav {
-    background-color: #1f1f1f;
-    box-shadow: 5px 0px 10px #1f1f1f;
+    background-color: #568259;
+    box-shadow: 0px 5px 10px -5px #464e47;
+    position: sticky;
+    top: 0;
 }
+
 nav ul {
     list-style-type: none;
-    text-align: center;
-    padding: 2%;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav li {
-    display: inline;
-    margin: 0px 1%;
+nav ul li {
+    margin: 0;
+    border-left: 1px solid #96E6B3;
 }
 
-nav a {
+nav ul li:last-child {
+    border-right: 1px solid #96E6B3;
+}
+
+nav ul li a {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #3f3f3f;
-    border-radius: 20px;
+    margin: 0;
+    text-align: center;
+    display: block;
 }
 
-nav a:link {
-    color: #f1d34a;
+nav ul li a:link {
+    color: #CCFCCB;
 }
 
-nav a:visited {
-    color: #f1d34a;
+nav li a:visited {
+    color: #CCFCCB;
 }
 
-nav a:hover {
-    background-color: #f1d34a;
-    color: #1f1f1f;
+nav li a.active {
+    background-color: #96E6B3;
+    color: #568259;
+    box-shadow: 0px 1px 5px #568259 inset;
+}
+
+nav li a:hover {
+    background-color: #CCFCCB;
+    color: #568259;
+    box-shadow: 0px 0px 5px #568259 inset;
+}
+
+.pop1 {
+    color: #568259;
 }
