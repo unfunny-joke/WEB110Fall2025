@@ -6,71 +6,6 @@ body {
     margin: 0px;
 }
 
-#wrapper {
-    width: 75%;
-    margin: 0px auto;
-    background-color: #F1FFFA;
-    box-shadow: 0px 0px 20px #252525;
-    min-width: 360px;
-}
-
-#homeHeader {
-    text-align: center;
-    font-family: helvetica, sans-serif;
-    min-height: 85vh;
-    padding: 0% 0px;
-    background-image: url(images/SunFrank.jpeg);
-    background-size: cover;
-    background-color: #CCFCCB;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    box-shadow: 0px 5px 20px -5px #333;
-    color: #F1FFFA;
-    display: flex;
-}
-
-header {
-    text-align: center;
-    font-family: helvetica, sans-serif;
-    height: 85vh;
-    padding: 0% 0px;
-    background-color: #CCFCCB;
-    box-shadow: 0px 5px 20px -5px #333;
-    color: #F1FFFA;
-    display: flex;
-}
-
-#banner {
-    margin-right: auto;
-    margin: 5% auto auto 0;
-    background-color: #ff9f68cc;
-    width: 65%;
-    box-shadow: 5px 5px 20px -5px #333, 10px 0 10px -5px inset #ac6b46;
-}
-
-header h1{
-    font-size: 4vw;
-    padding: 10px 5% 0 20%;
-    margin: 0;
-}
-
-header h2 {
-    font-weight: normal;
-    font-size: 1.5vw;
-    padding: 10px 5% 10px 20%;
-    margin: 0;
-}
-
-#portrait {
-    min-width: 20%;
-    max-width: 30%;
-    align-self: flex-end;
-    float: right;
-    border-radius: 25px;
-    box-shadow: -10px -10px #FF9F68;
-}
-
 nav {
     background-color: #568259;
     box-shadow: 0px 5px 10px -5px #464e47;
@@ -123,6 +58,74 @@ nav li a:hover {
     box-shadow: 0px 0px 5px #568259 inset;
 }
 
+#wrapper {
+    width: 75%;
+    margin: 0px auto;
+    background-color: #F1FFFA;
+    box-shadow: 0px 0px 20px #252525;
+    min-width: 360px;
+}
+
+#homeHeader {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    min-height: 85vh;
+    padding: 0% 0px;
+    background-image: url(images/SunFrank.jpeg);
+    background-size: cover;
+    background-color: #CCFCCB;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 40px #333 inset;
+    color: #F1FFFA;
+    display: flex;
+}
+
+header {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+    height: 85vh;
+    padding: 0% 0px;
+    background-color: #CCFCCB;
+    color: #F1FFFA;
+    display: flex;
+}
+
+#banner {
+    margin-right: auto;
+    margin: auto auto 5% 0;
+    background-color: #ff9f68cc;
+    width: 65%;
+    box-shadow: 5px 5px 20px -5px #333, 10px 0 10px -5px inset #ac6b46;
+}
+
+header h1{
+    font-size: 4vw;
+    padding: 10px 5% 0 20%;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: 1.5vw;
+    padding: 10px 5% 10px 20%;
+    margin: 0;
+}
+
 .pop1 {
     color: #568259;
+}
+
+main {
+    margin: 5%;
+}
+
+#portrait {
+    min-width: 20%;
+    max-width: 30%;
+    align-self: flex-end;
+    float: right;
+    border-radius: 25px;
+    box-shadow: -10px -10px #FF9F68;
 }
