@@ -17,7 +17,7 @@ body {
 header {
     text-align: center;
     font-family: helvetica, sans-serif;
-    min-height: 100vh;
+    min-height: 85vh;
     padding: 0% 0px;
     background-image: url(images/SunFrank.jpeg);
     background-size: cover;
