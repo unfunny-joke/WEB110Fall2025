@@ -69,13 +69,13 @@ nav li a:hover {
 #homeHeader {
     text-align: center;
     font-family: helvetica, sans-serif;
-    min-height: 85vh;
+    height: 85vh;
     padding: 0% 0px;
     background-image: url(images/SunFrank.jpeg);
-    background-size: cover;
     background-color: #CCFCCB;
-    background-position: center bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     box-shadow: 0px 0px 40px #333 inset;
     color: #F1FFFA;
