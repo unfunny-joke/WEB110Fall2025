@@ -136,6 +136,75 @@ header h2 {
     padding: 10px 5% 10px 20%;
     margin: 0;
 }
+
+.pop1 {
+    color: #568259;
+}
+
+main {
+    margin: 5% 0;
+}
+
+main h1 {
+    background-color: #568259;
+    padding: 10px 0 10px 5%;
+    margin: 0 0 5% 0;
+    width: 60%;
+    color: #CCFCCB;
+    box-shadow: 5px 0px 10px -5px #464e47 inset, 5px 5px 20px -5px #464e47;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.text {
+    width: 66%;
+}
+
+#portrait {
+    min-width: 150px;
+    max-height: 100%;
+    max-width: 33%;
+    align-self: center;
+    float: right;
+    border-radius: 25px;
+    box-shadow: -10px -10px #FF9F68;
+    margin: 0 5% 2% 5%;
+}
+
+main h2 {
+    padding: 0 5%;
+}
+
+main p {
+    padding: 0 5%;
+    line-height: 1.5em;
+}
+
+#portrait2 {
+    min-width: 150px;
+    max-height: 100%;
+    max-width: 33%;
+    align-self: center;
+    float: left;
+    border-radius: 25px;
+    box-shadow: -10px -10px #FF9F68;
+    margin: 0 5% 2% 5%;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: #568259;
+    color: #96E6B3;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 5px 10px -5px #333 inset
+}
+
 @media screen and (min-width: 1024px) {
     #homeHeader {
         background-attachment: fixed;
@@ -158,32 +227,4 @@ header h2 {
     header h2 {
         font-size: 1.5vw;
     }
-}
-
-.pop1 {
-    color: #568259;
-}
-
-main {
-    margin: 5%;
-}
-
-#portrait {
-    min-width: 20%;
-    max-width: 30%;
-    align-self: flex-end;
-    float: right;
-    border-radius: 25px;
-    box-shadow: -10px -10px #FF9F68;
-    margin: 0 0 2% 2%;
-}
-
-footer {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-style: italic;
-    background-color: #568259;
-    color: #96E6B3;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 0px 5px 10px -5px #333 inset
 }
