@@ -1,11 +1,21 @@
 /* Callie Shrum, 10/13/2025 */
 
+/* Background and Doc Setup*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #464e47;
     margin: 0px;
 }
 
+#wrapper {
+    width: 75%;
+    margin: 0px auto;
+    background-color: #F1FFFA;
+    box-shadow: 0px 0px 20px #252525;
+    min-width: 360px;
+}
+
+/*Nav Menu CSS */
 nav {
     background-color: #568259;
     box-shadow: 0px 5px 10px -5px #464e47;
@@ -58,18 +68,10 @@ nav li a:hover {
     box-shadow: 0px 0px 5px #568259 inset;
 }
 
-#wrapper {
-    width: 75%;
-    margin: 0px auto;
-    background-color: #F1FFFA;
-    box-shadow: 0px 0px 20px #252525;
-    min-width: 360px;
-}
-
+/*Header CSS */
 header {
     text-align: center;
     font-family: helvetica, sans-serif;
-    height: 85vh;
     padding: 0% 0px;
     background-color: #CCFCCB;
     color: #F1FFFA;
@@ -95,7 +97,7 @@ header {
     display: flex;
     background-color: #CCFCCB99;
     margin: 2% 0 7% auto;
-    height: 5%;
+    height: 8%;
     width: 40%;
     align-items: center;
     justify-content: flex-end;
@@ -106,8 +108,8 @@ header {
 .socialsBanner div {
     margin: 7px;
     align-items: center;
-    height: 20px;
-    width: 20px;
+    height: 29px;
+    width: 29px;
 }
 
 
@@ -141,6 +143,7 @@ header h2 {
     color: #568259;
 }
 
+/* Body CSS */
 main {
     margin: 5% 0;
 }
@@ -195,6 +198,43 @@ main p {
     margin: 0 5% 2% 5%;
 }
 
+#skillsList {
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    background-color: #FF9F6844;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px -5px #464e47;
+}
+
+.skillHead {
+    margin: 0;
+    padding: 1% 3%;
+    background-color: #FF9F68;
+    color: #fff;
+    line-height: 2em;
+}
+
+.skillHead:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+main ul{
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+main ul li{
+    padding: 1% 6%;
+}
+
+main ul li:nth-last-of-type(2) {
+    background-color: #FF9F6866;
+}
+
+/* Footer CSS */
 footer {
     font-family: Georgia, 'Times New Roman', serif;
     font-style: italic;
@@ -205,6 +245,7 @@ footer {
     box-shadow: 0px 5px 10px -5px #333 inset
 }
 
+/* Adjustments for Smaller Screens */
 @media screen and (min-width: 1024px) {
     #homeHeader {
         background-attachment: fixed;
