@@ -15,7 +15,7 @@ body {
     min-width: 360px;
 }
 
-/*Nav Menu CSS */
+/* Nav Menu CSS */
 nav {
     background-color: #568259;
     box-shadow: 0px 5px 10px -5px #464e47;
@@ -68,20 +68,75 @@ nav li a:hover {
     box-shadow: 0px 0px 5px #568259 inset;
 }
 
-/*Header CSS */
+/* Header CSS */
 header {
     text-align: center;
+    align-content: center;
     font-family: helvetica, sans-serif;
-    padding: 0% 0px;
+    margin: 0;
     background-color: #CCFCCB;
-    color: #F1FFFA;
+    color: #568259;
+    height: 50vh;
+    box-shadow: 0px 0px 40px #568259 inset;
 }
 
+header h1 {
+    margin: 0;
+    padding: 2%;
+}
+
+/* Sub Navigation */
+#portfolioNav {
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+    background: linear-gradient(
+    to right,
+    #56825900,
+    #568259 20% 80%,
+    #56825900);
+    border-top: 3px solid #464e4788;
+    border-bottom: 3px solid #464e4788;
+}
+
+#portfolioNav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#portfolioNav li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#portfolioNav li a:link{
+    color: #CCFCCB;
+}
+
+#portfolioNav li a:visited{
+    color: #CCFCCB;
+}
+
+#portfolioNav li:hover{
+    background-color: #CCFCCB;
+    border: 2px solid none #568259;
+}
+
+#portfolioNav li a:hover{
+    color: #568259;
+    box-shadow: 0px 0px 5px #568259 inset;
+}
+
+/* Home Page Header */
 #homeHeader {
     text-align: center;
     font-family: helvetica, sans-serif;
     height: 85vh;
-    padding: 0% 0px;
+    padding: 0;
     background-image: url(images/SunFrank.jpeg);
     background-color: #CCFCCB;
     background-position: bottom;
@@ -130,13 +185,13 @@ header {
     box-shadow: 5px 5px 20px -5px #333, 10px 0 10px -5px inset #ac6b46;
 }
 
-header h1{
-    font-size: 7vw;
+#banner h1{
+    font-size: 6vw;
     padding: 10px 5% 0 20%;
     margin: 0;
 }
 
-header h2 {
+#banner h2 {
     font-weight: normal;
     font-size: 2.5vw;
     padding: 10px 5% 10px 20%;
@@ -155,7 +210,7 @@ main {
 main h1 {
     background-color: #568259;
     padding: 10px 0 10px 5%;
-    margin: 0 0 5% 0;
+    margin: 5% 0;
     width: 60%;
     color: #CCFCCB;
     box-shadow: 5px 0px 10px -5px #464e47 inset, 5px 5px 20px -5px #464e47;
@@ -205,7 +260,7 @@ main p {
 .align2 {
     display: flex;
     margin: 0 5% 0 5%;
-    max-height: 333px;
+    min-height: 333px;
 }
 
 #skillsList {
@@ -247,12 +302,19 @@ main ul li{
 #profList {
     float: right;
     width: 30%;
+    min-width: 96px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px -5px #464e47;
 }
 
 #profList ul li:nth-last-of-type(2) {
     background-color: #aaa6;
+}
+
+#headText {
+    width: 60%;
+    margin: auto auto;
+    text-align: center;
 }
 
 /* Footer CSS */
