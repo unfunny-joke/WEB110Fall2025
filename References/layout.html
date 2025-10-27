@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--Alexa Summers 10/25/23-->
+<html lang="en">
+    <head>
+        <title>Layout Basics</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles1.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="print.css" type="text/css" media="print">
+        <style>
+         * {box-sizing: border-box;}
+
+        #wrapper {
+            width: 75%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: pink;
+            font-family: Georgia, serif;
+        }
+
+        nav {
+            text-align: right;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .div1 {
+            width: 200px;
+            background-color: #d1ecff;
+            border: 3px dashed black;
+            padding: 5px;
+            float: left;
+            margin: 5px;
+        }
+
+        .div2 {
+            width: 200px;
+            background-color: white;
+            border: 3px ridge black;
+            padding: 5px;
+            float: left;
+            margin: 5px;
+        }
+
+        .div3 {
+            width: 200px;
+            background-color: #fbf;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        footer {
+            clear: both;
+            background-color: #eee;
+            border: 3px solid black;
+            padding: 5px;
+        }
+
+        p {
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            clear: both;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Title of Website</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="link1.html">Homepage</a></li>
+                    <li><a href="link2.html">Link 2</a></li>
+                    <li><a href="link3.html">Link 3</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section>
+                    <div class="div1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat. Aliquam molestie facilisis neque, in pretium tortor finibus nec. Nunc finibus neque et consectetur maximus. Nunc feugiat turpis orci, quis pharetra elit interdum ut.</p>           
+                    </div>
+                    <div class="div3">
+                        <p>Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat.</p>
+                    </div>
+                    <div class="div2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat.</p>
+                    </div>
+                </section>
+                <section>
+                    <div class="div1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat. Aliquam molestie facilisis neque, in pretium tortor finibus nec. Nunc finibus neque et consectetur maximus. Nunc feugiat turpis orci, quis pharetra elit interdum ut.</p>           
+                    </div>
+                    <div class="div3">
+                        <p>Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat.</p>
+                    </div>
+                    <div class="div2">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum vehicula mi nec aliquet. Vivamus et pretium orci. In faucibus nibh ut risus ullamcorper malesuada. Morbi sollicitudin, nisl facilisis faucibus tempus, ligula erat rutrum orci, at feugiat augue ante et tortor. Nunc placerat felis mi, non consequat lectus elementum vel. Pellentesque hendrerit sem vitae congue pharetra. Maecenas sed aliquam erat. Quisque bibendum sapien sed orci laoreet consequat.</p>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                Copyright Alexa Summers &copy; 2023
+            </footer>
+        </div>
+    </body>
+</html>

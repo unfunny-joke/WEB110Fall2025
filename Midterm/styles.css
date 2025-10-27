@@ -1,6 +1,8 @@
 /* Callie Shrum, 10/13/2025 */
 
 /* Background and Doc Setup*/
+* {box-sizing: border-box;}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #464e47;
@@ -15,24 +17,43 @@ body {
     min-width: 360px;
 }
 
+.pop1 {
+    color: #568259;
+}
+
+.pop2 {
+    color: #F1FFFA;
+    background-color: #FF9F68;
+    padding: 1%;
+}
+
+.pop3 {
+    color: #568259;
+    font-weight: bold;
+}
+
 /* Nav Menu CSS */
 nav {
     background-color: #568259;
     box-shadow: 0px 5px 10px -5px #464e47;
     position: sticky;
     top: 0;
+    display: flex;
 }
 
 nav ul {
     list-style-type: none;
+    width: 100%;
     padding: 0;
     margin: 0;
+    margin-right: -95.14px;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
     margin: 0;
+    padding: 0;
     border-left: 1px solid #96E6B3;
 }
 
@@ -68,21 +89,51 @@ nav li a:hover {
     box-shadow: 0px 0px 5px #568259 inset;
 }
 
+#contact {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    display: block;
+    border-left: 1px solid #96E6B3;
+}
+
+#contact:link {
+    color: #CCFCCB;
+}
+
+#contact:visited {
+    color: #CCFCCB;
+}
+
+#contact:hover {
+    background-color: #CCFCCB;
+    color: #568259;
+    box-shadow: 0px 0px 5px #568259 inset;
+}
+
 /* Header CSS */
 header {
     text-align: center;
-    align-content: center;
+    align-items: end;
     font-family: helvetica, sans-serif;
     margin: 0;
     background-color: #CCFCCB;
     color: #568259;
     height: 50vh;
     box-shadow: 0px 0px 40px #568259 inset;
+    display: flex;
 }
 
 header h1 {
     margin: 0;
     padding: 2%;
+}
+
+#headAlign {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 5%;
 }
 
 /* Sub Navigation */
@@ -198,10 +249,6 @@ header h1 {
     margin: 0;
 }
 
-.pop1 {
-    color: #568259;
-}
-
 /* Body CSS */
 main {
     margin: 5% 0;
@@ -234,7 +281,7 @@ main h1 {
     float: right;
     border-radius: 25px;
     box-shadow: -10px -10px #FF9F68;
-    margin: 0 5% 2% 5%;
+    margin: 0 5% 0% 5%;
 }
 
 main h2 {
@@ -254,7 +301,7 @@ main p {
     float: left;
     border-radius: 25px;
     box-shadow: -10px -10px #FF9F68;
-    margin: 0 5% 2% 5%;
+    margin: 0 5% 0% 5%;
 }
 
 .align2 {
@@ -295,6 +342,13 @@ main ul li{
     padding: .25em 1em;
 }
 
+main ol {
+    text-align: left;
+    list-style: upper-roman;
+    padding: 0 12% 0 15%;
+    line-height: 1.5em;
+}
+
 #skillsList ul li:nth-last-of-type(2) {
     background-color: #FF9F6866;
 }
@@ -316,6 +370,8 @@ main ul li{
     margin: auto auto;
     text-align: center;
 }
+
+
 
 /* Footer CSS */
 footer {
