@@ -32,6 +32,12 @@ body {
     font-weight: bold;
 }
 
+.pop4 {
+    color: #F1FFFA;
+    background-color: #568259;
+    padding: 1%;
+}
+
 /* Nav Menu CSS */
 nav {
     background-color: #568259;
@@ -261,6 +267,7 @@ main h1 {
     width: 60%;
     color: #CCFCCB;
     box-shadow: 5px 0px 10px -5px #464e47 inset, 5px 5px 20px -5px #464e47;
+    clear: both;
 }
 
 .align {
@@ -307,7 +314,6 @@ main p {
 .align2 {
     display: flex;
     margin: 0 5% 0 5%;
-    min-height: 333px;
 }
 
 #skillsList {
@@ -371,7 +377,52 @@ main ol {
     text-align: center;
 }
 
+.projSpotlight {
+    width: 90%;
+    padding: 2%;
+    margin: 0% 5% 5% 5%;
+    float: left;
+    overflow: hidden;
+    background-color: #FF9F6844;
+    box-shadow: 10px 20px #FF9F68;
+    border-radius: 10px;
+    text-align: center;
+}
 
+.projShowcase {
+    width: 45%;
+    height: 400px;
+    padding: 1.5%;
+    margin: 2.5% 2.5% 5% 2.5%;
+    float: left;
+    background-color: #CCFCCB;
+    box-shadow: 5px 10px #568259;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.projShowcase h3 {
+    margin: 5% 0;
+}
+
+.projShowcase p {
+    margin: 2%;
+}
+
+.projImgSpot {
+    max-width: 100%;
+}
+
+.projImg {
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.showText {
+    height: 45%;
+    overflow: scroll;
+}
 
 /* Footer CSS */
 footer {
@@ -381,7 +432,8 @@ footer {
     color: #96E6B3;
     text-align: center;
     padding: 10px;
-    box-shadow: 0px 5px 10px -5px #333 inset
+    box-shadow: 0px 5px 10px -5px #333 inset;
+    clear: both;
 }
 
 /* Adjustments for Smaller Screens */
@@ -407,4 +459,17 @@ footer {
     header h2 {
         font-size: 1.5vw;
     }
+
+    .projShowcase {
+    width: 30%;
+    height: 400px;
+    padding: 1.5%;
+    margin: 0% 1.6% 5% 1.6%;
+    float: left;
+    background-color: #CCFCCB;
+    box-shadow: 5px 10px #568259;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
 }
