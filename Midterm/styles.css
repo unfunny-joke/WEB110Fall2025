@@ -424,6 +424,51 @@ main ol {
     overflow: scroll;
 }
 
+.downloadButton {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #568259;
+}
+
+.downloadButton a {
+    color: #CCFCCB;
+    text-decoration: none;
+}
+
+#resume {
+    margin: 5%;
+}
+
+#resume h2 {
+    padding: 0;
+    color: #464e47;
+}
+
+#resume h3 {
+    margin: 0;
+    color: #464e47;
+}
+
+#resume h4 {
+    margin: 0;
+}
+
+#resume p {
+    padding: 0 5%;
+}
+
+#resume ul {
+    padding: 2.5% 2.5%;
+    line-height: 1em;
+    list-style-type: none;
+}
+
+#resume ul li:first-child{
+    padding:4px 0%;
+}
+
 /* Footer CSS */
 footer {
     font-family: Georgia, 'Times New Roman', serif;
