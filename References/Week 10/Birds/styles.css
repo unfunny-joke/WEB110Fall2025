@@ -1,0 +1,40 @@
+/*Mobile styles go first */
+p {
+    background-color: red;
+    color: white;
+}
+
+.showdesktop {
+    display: none;
+}
+
+.showmobile {
+    display: block;
+}
+
+
+/*Tablet styles go second */
+@media (min-width: 600px) {
+    p {
+        background-color: blue;
+    }
+
+    body {
+        background-color: yellow;
+    }
+}
+
+/*Desktop styles go last */
+@media (min-width: 800px) {
+    p {
+        background-color: green;
+    }
+
+    .showdesktop {
+        display: block;
+    }
+
+    .showmobile {
+        display: none;
+    }
+}
