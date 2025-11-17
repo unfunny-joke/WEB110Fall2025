@@ -1,0 +1,22 @@
+/* Callie Shrum, 11/10/2025 */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+@media (min-width: 600px) {
+    
+}
+
+@media (min-width: 800px) {
+
+}
