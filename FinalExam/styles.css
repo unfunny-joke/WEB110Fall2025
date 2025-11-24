@@ -1,22 +1,446 @@
 /* Callie Shrum, 11/10/2025 */
+
+/*
+Color Pallete:
+#FEEDA1 - Pale Yellow
+#FFB72F - Golden Yellow
+#FE7D16 - Orange
+#D83419 - Red
+#608C62 - Green
+#4E4B29 - Olive Green
+#222114 - Dark Green
+*/
+
 * {
     box-sizing: border-box;
 }
 
 body{
-    background-color: #333;
+    background-color: #222114;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #D83419;
+    margin: 0;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 0px;
+    color: #FE7D16;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:visited {
+    color: #FE7D16;
+}
+
+nav ul li.active {
+    background-color: #FE7D16;
+    color: #D83419;
+    box-shadow: 0px 1px 5px #D83419 inset;
+}
+
+nav ul li.active a {
+    color: #D83419;
+}
+
+nav ul li:hover {
+    background-color: #FFB72F;
+    color: #FE7D16;
+    box-shadow: 0px 1px 5px #FE7D16 inset;
+}
+
+nav ul li:hover a{
+    color: #FE7D16;
 }
 
 #wrapper {
-    width: 70%;
+    width: 80%;
+    min-width: 300px;
     margin: 0 auto;
+    background-color: #FE7D16;
+}
+
+header {
+    text-align: center;
+    height: 50vh;
+    background-color: #aaaa;
+    background-image: url(Images/TylerDiscog.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    display: flex;
+    box-shadow: 0 0 50px #333 inset;
+}
+
+header h1 {
+    background-color: #FFB72F;
+    color: black;
+    margin: auto auto 2% auto;
+    width: 90%;
+    font-size: 4vw;
+    padding: 1.5% 3%; 
+    box-shadow: 0 0 20px #333;
+}
+
+main {
+    margin: 0 2%;
+    padding: 5%;
+    line-height: 1.25em;
     background-color: white;
 }
 
+footer {
+    background-color: #D83419;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 0 5px 10px -5px #333 inset;
+    color: #FFB72F;
+}
+
+footer a {
+    color: #FFB72F;
+}
+
+footer a:hover {
+    color: #FEEDA1;
+}
+
+.text {
+    background-color: #D83419;
+    padding: 4%;
+    height: 100%;
+    width: 100%;
+    color: #FEEDA1;
+    text-align: center;
+}
+
+.text h1 {
+    line-height: 1.25;
+}
+
+.text p{
+    color: white
+}
+
+.text ul {
+    text-align: left;
+    margin: 1.5% auto;
+}
+
+.text h4 {
+    margin: 0;
+}
+
+h2 {
+    line-height: 1.25em;
+}
+
+p {
+    margin: 0;
+}
+
+.align {
+    display: block;
+    align-items: center;
+    margin: 10% 0;
+}
+
+.align2 {
+    display: block;
+    align-items: center;
+    margin: 10% 0;
+}
+
+#img1 {
+    max-width: 50%;
+    max-height: 350px;
+    margin:  2.5% 25%;
+}
+
+#text2 {
+    margin: auto;
+    padding: 4%;
+    width: 60%; 
+    background-color: #608C62;
+    color: white;
+    text-align: center;
+}
+
+#text2 ol {
+    text-align: left;
+    list-style-type: upper-roman;
+    line-height: 1.5em;
+}
+
+#text2 ol li {
+    font-style: italic;
+}
+
+#text2 ol li a {
+    color: white;
+}
+
+#text2 ol li a:hover {
+    color: #222114;
+}
+
+.albumImg {
+    max-width: 50%;
+    margin:  2.5% 25%;
+}
+
+.albumImg2 {
+    max-width: 50%;
+    margin:  2.5% 25%;
+}
+
+#bastardText {
+    background-color: #EF0000;
+    color: #01BAFF;
+}
+
+#bastardText p{
+    color: white
+}
+
+#goblinText {
+    background-color: #B0AFB3;
+    color: #E8038C;
+}
+
+#goblinText p, ul{
+    color: white
+}
+
+#wolfText {
+    background-color: #79B5E6;
+    color: #4B8260;
+}
+
+#wolfText p, ul{
+    color: white
+}
+
+#cherryText {
+    background-color: #E9EEE9;
+    color: #A2353A;
+}
+
+#cherryText h3{
+    color: #BE6B97;
+}
+
+#cherryText h4 {
+    color: #4DC2E4;
+}
+
+#cherryText p{
+    color: black
+}
+
+#cherryText ul{
+    color: black
+}
+
+#flowerText {
+    background-color: #D83419;
+    color: #FE7D16;
+}
+
+#flowerText h3{
+    color: #FFB72F;
+}
+
+#flowerText h4 {
+    color: #4E4B29;
+}
+
+#flowerText p{
+    color: #FEEDA1
+}
+
+#flowerText ul{
+    color: #FEEDA1
+}
+
+#igorText {
+    background-color: #F5B8C9;
+    color: #717171;
+}
+
+#igorText p, #igorText ul{
+    color: black
+}
+
+#CMIYGLText {
+    background-color: #FCF5E3;
+    color: #C7B58E;
+}
+
+#CMIYGLText h3, #CMIYGLText h4{
+    color: #8FB1A7;
+}
+
+#CMIYGLText p, #CMIYGLText ul{
+    color: black
+}
+
+#chromText {
+    background-color: #0C8342;
+    color: black;
+}
+
+#chromText p, #chromText ul{
+    color: black
+}
+
+#DTtGText {
+    background-color: #FBF8F3;
+    color: #D63F40;
+}
+
+#DTtGText h3, #DTtGText h4 {
+    color: #D9C289;
+}
+
+#DTtGText p, #DTtGText ul{
+    color: black
+}
+
+form {
+    background-color: #D83419;
+    color: white;
+    padding: 2%;
+}
+
+form h2 {
+    color: #FEEDA1;
+    margin: 2% 0;
+}
+
+.formBlock {
+    background-color: #FE7D16;
+    padding: 5%;
+    margin: 5% 2%;
+}
+
+label {
+    font-style: italic;
+}
+
+.Top3, .FavAlbum{
+    margin: 10px 20px;
+}
+
+#FavSong {
+    margin: 10px 0px;
+}
+
+#submit, #reset {
+    margin: 0 2% 2% 2%;
+}
+
 @media (min-width: 600px) {
-    
+    nav {
+        position: sticky;
+        top: 0;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: block;
+        border-left: 1px solid #FE7D16;
+        padding: 0px;
+    }
+
+    nav ul li a{
+        padding: 10px 30px;
+    }
+
+    nav ul li:last-child {
+        border-right: 1px solid #FE7D16;
+    }
+
+    header {
+        height: 60vh;
+    }
+
+    header h1 {
+        padding: 1.5% 2%;
+        font-size: 3vw;
+    }
+
+    .align {
+    display: flex;
+    align-items: center;
+    }
+
+    .align2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    }
+
+    .text {
+        width: 60%;
+        padding: 2%;
+        text-align: left;
+    }
+
+    #img1 {
+        max-width: 35%;
+        max-height: 350px;
+        margin: auto;
+        float: right;
+    }
+
+    #text2 {
+        padding: 2%;
+    }
+
+    .albumImg {
+        max-width: 35%;
+        margin: auto;
+        float: right;
+    }
+
 }
 
 @media (min-width: 800px) {
+    nav ul li a {
+        padding: 10px 40px;
+    }
 
+    header {
+        height: 75vh;
+    }
+
+    header h1 {
+        font-size: 2.5vw;
+        padding: 1.5%;
+    }
 }

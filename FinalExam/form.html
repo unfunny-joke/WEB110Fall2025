@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!-- Callie Shrum, 11/10/2025 -->
- <html>
+ <html lang="en">
     <head>
-        <title>Final Exam - Form</title>
+        <title>Tyler, the Creator's Discography - Form</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css" type="text/css">
@@ -12,23 +12,85 @@
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="detail.html">Detail</a></li>
-                <li><a href="form.html" id="active">Form</a></li>
+                <li><a href="detail.html">Discography</a></li>
+                <li class="active"><a href="form.html">Form</a></li>
                 <li><a href="credit.html">Credit</a></li>
             </ul>
         </nav>
 
         <div id="wrapper">
             <header>
-
+                <h1>Tell Us Your Favorite Albums</h1>
             </header>
             
             <main>
+                <div id="text2">
+                    <p>We'd love to hear what you think about Tyler, the Creator's doscography. Let us know in the form below.</p>
+                </div>
+                <br><br>
+                
+                <form name="form" method="post" action="demo.php">
+                    <div class="formBlock">
+                        <label for="name">Enter you name:</label>
+                        <input type="text" id="name"> <br><br>
 
+                        <label for="date">Today's Date:</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    
+                    <div class="formBlock">
+                        <h2>Top 3 Albums:</h2>
+                        <label><input type="checkbox" name="Top3Bastard" class="Top3">Bastard</label><br>
+                        <label><input type="checkbox" name="Top3Goblin" class="Top3">Goblin</label><br>
+                        <label><input type="checkbox" name="Top3Wolf" class="Top3">Wolf</label><br>
+                        <label><input type="checkbox" name="Top3Cherry" class="Top3">Cherry Bomb</label><br>
+                        <label><input type="checkbox" name="Top3Flower" class="Top3">Flower Boy</label><br>
+                        <label><input type="checkbox" name="Top3Igor" class="Top3">IGOR</label><br>
+                        <label><input type="checkbox" name="Top3CMIYGL" class="Top3">Call Me If You Get Lost</label><br>
+                        <label><input type="checkbox" name="Top3Chrom" class="Top3">Chromakopia</label><br>
+                        <label><input type="checkbox" name="Top3DTtG" class="Top3">Don't Tap the Glass</label>
+                    </div>
+                    
+                    <div class="formBlock">
+                        <h2>Favorite Album:</h2>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Bastard</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Goblin</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Wolf</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Cherry Bomb</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Flower Boy</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">IGOR</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Call Me If You Get Lost</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Chromakopia</label><br>
+                        <label><input type="radio" name="FavAlbum" class="FavAlbum">Don't Tap the Glass</label>
+                    </div>
+                    
+                    <div class="formBlock">
+                        <h2>Favorite Songs:</h2>
+                    <textarea name="FavSong" id="FavSong" cols="30" rows="4" placeholder="Tell us some of your favorite songs"></textarea>
+                    </div>
+                    
+                    <div class="formBlock">
+                        <h2>Favorite Tyler, the Creator Alter-Ego:</h2>
+                        <select size="1" name="optionList" id="optionList">
+                            <option>Ace</option>
+                            <option>Wolf Haley</option>
+                            <option>Flower Boy</option>
+                            <option>Igor</option>
+                            <option>Sir Baudelaire</option>
+                            <option>Saint Chroma</option>
+                            <option>Big Poe</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                    <input type="reset" name="reset" id="reset" value="Start Over">
+                </form>
             </main>
 
             <footer>
-
+                <small>&copy; Callie Shrum, 2025</small>
+                &nbsp;&vert;&nbsp;
+                <small><a href="mailto:cshrum2@stumail.jccc.edu">Contact Me</a></small>
             </footer>
         </div>
     </body>

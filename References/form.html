@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Alexa Summers, 11/8/2023-->
+<html lang="en">
+    <head>
+        <title>Form Basics</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Sample Form</h1>
+        <form name="sample" method="post" id="sample" action="demo.php">
+            <h2>Text Form Control</h2>
+            E-mail:<input type="text" name="email" id="email"><br>
+            <label>E-mail:<input type="text" name="email2" id="email2"></label>
+
+            <h2>Checkbox and Radio Buttons</h2>
+            <h3>Check all that apply</h3>
+            <label><input type="checkbox" name="Option1" id="Option1" value="yes">Option 1</label><br>
+            <label><input type="checkbox" name="Option2" id="Option2" value="yes">Option 2</label><br>
+            <label><input type="checkbox" name="Option3" id="Option3" value="yes">Option 3</label><br><br>
+
+            <h3>Choose the best option</h3>
+            <input type="radio" name="Option" id="Option" value="Option 4">Option 4<br>
+            <input type="radio" name="Option" id="Option" value="Option 5">Option 5<br>
+            <input type="radio" name="Option" id="Option" value="Option 6">Option 6<br><br>
+
+            <h2>Hidden and Password Elements</h2>
+            <h3>Hidden Field</h3>
+            <input type="hidden" name="sendto" value="order@site.com">This is a hidden field<br>
+            
+            <h3>Password Box</h3>
+            Password:<input type="password" name="pword" id="pword" required="required"><br><br>
+
+            <h2>Textarea Element</h2>
+            <h3>Add comments below:</h3>
+            <textarea name="cm" id="cm" cols="40" rows="2" placeholder="Enter Comments">
+            </textarea><br><br>
+
+            <h2>Select and Option Element</h2>
+            <h3>Choose the best option</h3>
+            <select size="3" name="optionlist" id="optionlist" multiple>
+                <option value="Option7">Option 7</option>
+                <option value="Option8">Option 8</option>
+                <option value="Option9">Option 9</option>
+            </select><br><br>
+
+            <select size="1" name="optionlist" id="optionlist">
+                <option value="Option10">Option 10</option>
+                <option value="Option11">Option 11</option>
+                <option value="Option12">Option 12</option>
+            </select>
+
+            <h2>Datalist Element</h2>
+            <h3>What is your favorite color?</h3>
+            <label for="color">Favorite Color:</label>
+            <input type="text" name="favcolor" id="favcolor" list="colors">
+            <datalist id="colors">
+                <option>black</option>
+                <option>red</option>
+                <option>blue</option>
+                <option>green</option>
+                <option>grey</option>
+                <option>yellow</option>
+            </datalist><br><br>
+
+            <h2>Slider Control</h2>
+            <label for="myChoice">Choose a number between 1 and 100:</label><br>
+            Low<input type="range" min="1" max="100" name="myChoice" id="myChoice">High<br><br>
+
+            <h2>Spinner Control</h2>
+            <label for="myChoice2">Choose a number between 1 and 10:</label><br>
+            <input type="number" name="myChoice2" id="myChoice2" min="1" max="10" step="2"><br><br>
+
+            <h2>Calendar Control</h2>
+            <label for="myDate">Choose a date:</label>
+            <input type="date" name="myDate" id="myDate">
+
+            <h2>Color Well Control</h2>
+            <label for="myColor">Choose a color:</label>
+            <input type="color" name="myColor" id="myColor">
+
+            <h2>Submit and Reset Buttons</h2>
+            <input type="submit" name="submit" id="submit" value="Subscribe">
+            <input type="reset" name="reset" id="reset" value="Clear Form">
+        </form>
+    </body>
+</html>
