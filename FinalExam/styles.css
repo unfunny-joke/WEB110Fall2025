@@ -364,6 +364,30 @@ label {
     margin: 0 2% 2% 2%;
 }
 
+#credit {
+    background-color: #D83419;
+    padding: 5%;
+    color: white;
+}
+
+#credit h2, #credit h4{
+    color: #FEEDA1;
+    margin: 10px 0;
+}
+
+#credit a:link {
+    color: white;
+}
+
+#credit a:hover {
+    color: #FEEDA1;
+}
+
+
+#credit a:visited {
+    color: #FFB72F;
+}
+
 @media (min-width: 600px) {
     nav {
         position: sticky;
