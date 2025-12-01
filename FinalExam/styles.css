@@ -11,6 +11,7 @@ Color Pallete:
 #222114 - Dark Green
 */
 
+/* Mobile/Base Formatting */
 * {
     box-sizing: border-box;
 }
@@ -25,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black', Helvetica, sans-serif;
 }
 
+/* Nav Bar */
 nav {
     background-color: #D83419;
     margin: 0;
@@ -77,6 +79,7 @@ nav ul li:hover a{
     color: #FE7D16;
 }
 
+/* Body */
 #wrapper {
     width: 80%;
     min-width: 300px;
@@ -84,6 +87,7 @@ nav ul li:hover a{
     background-color: #FE7D16;
 }
 
+/* Header */
 header {
     text-align: center;
     height: 50vh;
@@ -135,6 +139,7 @@ footer a:hover {
     width: 100%;
     color: #FEEDA1;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .text h1 {
@@ -368,6 +373,7 @@ label {
     background-color: #D83419;
     padding: 5%;
     color: white;
+    word-wrap: break-word;
 }
 
 #credit h2, #credit h4{
@@ -388,6 +394,7 @@ label {
     color: #FFB72F;
 }
 
+/* Tablet Formatting */
 @media (min-width: 600px) {
     nav {
         position: sticky;
@@ -464,6 +471,7 @@ label {
 
 }
 
+/* Desktop Formatting */
 @media (min-width: 800px) {
     nav ul li a {
         padding: 10px 40px;
